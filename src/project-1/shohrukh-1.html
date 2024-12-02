@@ -44,7 +44,7 @@
             <h2 class="text-[25px] lg:text-[40px] text-[#0D233B] font-bold">Отзывы наших пациентов</h2>
         </div>
         <section class="flex flex-col items-center md:flex-row gap-[20px] mt-[50px] w-full">
-            <aside class="w-[560px] lg:m-0">
+            <aside class="lg:w-[560px] lg:m-0">
                 
                 <div class="w-[387px] m-auto lg:w-[560px] lg:h-[322px] border-[3px] rounded-[10px] p-[30px] my-[30px]">
                     <div class="flex items-center justify-between">
@@ -134,7 +134,7 @@
             </aside>
 
             
-            <aside class="w-[560px] lg:m-0">
+            <aside class="lg:w-[560px] lg:m-0">
                 
                 <div class="w-[387px] m-auto lg:w-[560px] lg:h-[322px] border-[3px] rounded-[10px] p-[30px] my-[30px]">
                     <div class="flex items-center justify-between">
@@ -233,7 +233,7 @@
             <aside class="lg:w-[600px]">
                 <h2 class="text-[#fff] text-[25px]  lg:text-[40px] font-bold">Хотите, мы Вам перезвоним?</h2>
                 <p class="text-[#fff] text-[16px] py-[10px]">Оставьте заявку и мы подробно ответим на все Ваши вопросы!</p>
-                <div class="flex flex-col items-center lg:flex-row gap-[10px]">
+                <div class="flex flex-col lg:items-center lg:flex-row gap-[10px]">
                     <div class="my-[20px] m-0">
                         <form action="">
                             <p class="text-[#fff] text-[16px] font-bold">Ваше ФИО</p>
@@ -256,8 +256,8 @@
     </main>
 
     <footer class="w-full bg-[#279A59] mt-[100px] pt-[50px] pb-[30px]">
-        <section class="w-[80%] m-auto flex gap-[100px] items-start">
-            <aside class="text-[#fff]">
+        <section class="w-[90%] m-auto flex gap-[100px] items-start flex-wrap">
+            <aside class="text-[#fff] lg:m-0 m-auto">
                 <img src="./img-shohrukh/imgs-1.png" alt="">
                 <p class="text-[14px] py-[5px]">Адрес</p>
                 <p class="text-[16px] py-[5px]">Москва, ул. Пушкина, д.43</p>
@@ -266,33 +266,45 @@
                 <p class="text-[14px] py-[5px]">Почта</p>
                 <p class="text-[16px] py-[5px]">Poshta@gmail.com</p>
             </aside>
-            <aside class="text-[#fff]">
-                <p class="text-[18px] font-bold">О клинике</p>
-                <p class="text-[16px] py-[5px]">Название пункта меню</p>
-                <p class="text-[16px] py-[5px]">Название пункта меню</p>
-                <p class="text-[16px] py-[5px]">Название пункта меню</p>
-                <p class="text-[16px] py-[5px]">Название пункта меню</p>
-                <p class="text-[16px] py-[5px]">Название пункта меню</p>
-                <p class="text-[16px] py-[5px]">Название пункта меню</p>
-            </aside>
-            <aside class="text-[#fff]">
-                <p class="text-[18px] font-bold">Пациентам</p>
-                <p class="text-[16px] py-[5px]">Название пункта меню</p>
-                <p class="text-[16px] py-[5px]">Название пункта меню</p>
-                <p class="text-[16px] py-[5px]">Название пункта меню</p>
-                <p class="text-[16px] py-[5px]">Название пункта меню</p>
-                <p class="text-[16px] py-[5px]">Название пункта меню</p>
-                <p class="text-[16px] py-[5px]">Название пункта меню</p>
-            </aside>
-            <aside class="text-[#fff]">
-                <p class="text-[18px] font-bold">Услуги</p>
-                <p class="text-[16px] py-[5px]">Название пункта меню</p>
-                <p class="text-[16px] py-[5px]">Название пункта меню</p>
-                <p class="text-[16px] py-[5px]">Название пункта меню</p>
-                <p class="text-[16px] py-[5px]">Название пункта меню</p>
-                <p class="text-[16px] py-[5px]">Название пункта меню</p>
-                <p class="text-[16px] py-[5px]">Название пункта меню</p>
-            </aside>
+            <section class="grid lg:grid-cols-4 grid-cols-2 gap-[50px]">
+                
+                <aside class="text-[#fff]">
+                    <p class="text-[18px] font-bold">О клинике</p>
+                    <p class="text-[16px] py-[5px]">Название пункта меню</p>
+                    <p class="text-[16px] py-[5px]">Название пункта меню</p>
+                    <p class="text-[16px] py-[5px]">Название пункта меню</p>
+                    <p class="text-[16px] py-[5px]">Название пункта меню</p>
+                    <p class="text-[16px] py-[5px]">Название пункта меню</p>
+                    <p class="text-[16px] py-[5px]">Название пункта меню</p>
+                </aside>
+                <aside class="text-[#fff]">
+                    <p class="text-[18px] font-bold">Врач</p>
+                    <p class="text-[16px] py-[5px]">Название пункта меню</p>
+                    <p class="text-[16px] py-[5px]">Название пункта меню</p>
+                    <p class="text-[16px] py-[5px]">Название пункта меню</p>
+                    <p class="text-[16px] py-[5px]">Название пункта меню</p>
+                    <p class="text-[16px] py-[5px]">Название пункта меню</p>
+                    <p class="text-[16px] py-[5px]">Название пункта меню</p>
+                </aside>
+                <aside class="text-[#fff]">
+                    <p class="text-[18px] font-bold">Пациентам</p>
+                    <p class="text-[16px] py-[5px]">Название пункта меню</p>
+                    <p class="text-[16px] py-[5px]">Название пункта меню</p>
+                    <p class="text-[16px] py-[5px]">Название пункта меню</p>
+                    <p class="text-[16px] py-[5px]">Название пункта меню</p>
+                    <p class="text-[16px] py-[5px]">Название пункта меню</p>
+                    <p class="text-[16px] py-[5px]">Название пункта меню</p>
+                </aside>
+                <aside class="text-[#fff]">
+                    <p class="text-[18px] font-bold">Услуги</p>
+                    <p class="text-[16px] py-[5px]">Название пункта меню</p>
+                    <p class="text-[16px] py-[5px]">Название пункта меню</p>
+                    <p class="text-[16px] py-[5px]">Название пункта меню</p>
+                    <p class="text-[16px] py-[5px]">Название пункта меню</p>
+                    <p class="text-[16px] py-[5px]">Название пункта меню</p>
+                    <p class="text-[16px] py-[5px]">Название пункта меню</p>
+                </aside>
+            </section>
         </section>
     </footer>
 </body>
