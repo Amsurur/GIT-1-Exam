@@ -637,6 +637,10 @@ video {
   width: 100%;
 }
 
+.w-\[80\%\] {
+  width: 80%;
+}
+
 .cursor-pointer {
   cursor: pointer;
 }
@@ -766,6 +770,14 @@ video {
 .py-\[7px\] {
   padding-top: 7px;
   padding-bottom: 7px;
+}
+
+.pb-\[30px\] {
+  padding-bottom: 30px;
+}
+
+.pt-\[50px\] {
+  padding-top: 50px;
 }
 
 .text-\[12px\] {
