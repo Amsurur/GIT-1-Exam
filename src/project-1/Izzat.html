@@ -9,7 +9,7 @@
 <body>
     <header>
         <nav class="w-[85%] flex flex-col gap-[20px] m-auto py-[20px]">
-            <div class="text-[#686868] text-[18px] flex justify-between items-center">
+            <div class="text-[#686868] text-[18px] hidden lg:flex justify-between items-center">
                 <p>Сеть клиник Томской области</p>
                 <div class="flex items-center gap-[10px]">
                     <img src="./izzyfoto/view 1.png" alt="">
@@ -23,7 +23,7 @@
 
             <div class="flex gap-[30px] items-center justify-between">
                 <img src="./izzyfoto/image 1 (1).png" alt="">
-                <ul class="text-[#0D233B] text-[18px] flex gap-[55px]">
+                <ul class="text-[#0D233B] text-[18px] hidden lg:flex gap-[55px]">
                     <li>Врачи</li>
                     <li>Услуги</li>
                     <li>Диагностика</li>
@@ -34,21 +34,22 @@
                     <li>Отзывы</li>
                     <li>Контакты</li>
                 </ul>
+                <img src="./izzyfoto/burger.png" alt="" class="block lg:hidden">
             </div>
         </nav>
 
         <section class="bg-[#35AF67]">
-            <div class="w-[85%] m-auto flex justify-between items-center text-[white]">
+            <div class="w-[85%] m-auto flex justify-between py-[60px] lg:py-[0px] items-center text-[white]">
                 <aside class="flex flex-col items-start gap-[30px]">
-                    <p class="text-[60px] text-white font-semibold leading-[70px]">Lorem ipsum <br> dolor sit amet, <br> consectetur</p>
+                    <p class="text-[50px] sm:text-[60px] text-white font-semibold sm:leading-[70px]">Lorem ipsum <br> dolor sit amet, <br> consectetur</p>
                     <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br> Viverra amet dolor sed mi tincidunt pharetra montes. Lorem <br> ipsum dolor sit amet, consectetur adipiscing elit. Viverra <br> amet dolor sed mi tincidunt pharetra montes.</p>
                     <button class="text-[#3BB96D] bg-white py-[7px] px-[60px] rounded-[20px]">Подробнее ></button>
                 </aside>
-                <aside class="w-[50%]">
+                <aside class="w-[50%] hidden sm:block">
                     <img src="./izzyfoto/TDV_M63_010 1.png" alt="" class="w-[100%]">
                 </aside>
             </div>
-            <div class="flex items-center justify-center pb-[20px]">
+            <div class="flex items-center px-[40px] sm:px-[0px] sm:justify-center pb-[20px]">
              <img src="./izzyfoto/Frame 3.png" alt="" class="">    
             </div>
               
@@ -56,14 +57,14 @@
     </header>
 
     <main>
-        <section class="w-[85%] m-auto flex py-[80px] gap-[30px] justify-between">
-            <aside class="w-[50%] flex flex-col gap-[20px] justify-center">
+        <section class="w-[85%] m-auto flex flex-col sm:flex-row  py-[80px] gap-[30px] justify-between">
+            <aside class="sm:w-[50%] flex flex-col gap-[20px] justify-center">
                 <p class="text-[#0D233B] text-[40px] font-bold">Немного о нас</p>
                 <p class="text-[#686868] leading-[25px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ipsum diam pretium risus, ultrices felis a. Adipiscing maecenas mattis ullamcorper magnis eget varius. At lobortis tristique mattis orci aenean. Pretium, posuere tristique id potenti ac. Ac praesent arcu vitae arcu. Velit ut et, leo, augue bibendum euismod in. Turpis massa, commodo vestibulum bibendum amet orci velit, risus. Semper mauris curabitur auctor id amet mauris lacus. Ut quis nisi, ac consequat sed massa egestas. Sed adipiscing scelerisque enim, id amet eget. Ipsum dui a bibendum quisque in.
                      <br> <br>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ipsum diam pretium risus, ultrices felis a. Adipiscing maecenas mattis ullamcorper magnis eget varius. At lobortis tristique mattis orci aenean. Pretium, posuere tristique id potenti ac. </p>
             </aside>
-            <aside class="w-[50%]">
+            <aside class="sm:w-[50%]">
                 <img src="./izzyfoto/Mask group (1).png" alt="">
             </aside>
         </section>
@@ -72,10 +73,10 @@
         <section class="w-[85%] m-auto  py-[60px] flex flex-col gap-[40px]">
             <aside class="flex justify-between items-center">
                 <p class="text-[#0D233B] text-[40px] font-semibold">Направления нашей работы</p>
-                <button class="py-[10px] rounded-[20px] px-[30px] text-white bg-[#3BB96D]">Все направления ></button>
+                <button class="py-[10px] hidden sm:block rounded-[20px] px-[30px] text-white bg-[#3BB96D]">Все направления ></button>
 
             </aside>
-            <aside class="grid grid-cols-4 gap-[30px]">
+            <aside class="grid sm:grid-cols-4 gap-[30px]">
                 <div class="shadow-xl">
                     <img src="./izzyfoto/Rectangle 5 (1).png" alt="" class="w-[100%]" >
                     <div class="ml-[20px] flex flex-col gap-[10px] py-[20px]">
@@ -116,9 +117,9 @@
             <div class="w-[85%] m-auto  flex flex-col gap-[40px]">
                 <aside class="flex justify-between items-center">
                     <p class="text-[#0D233B] text-[40px] font-semibold">Наши специалисты</p>
-                      <img src="./izzyfoto/Скрол.png" alt="">
+                      <img src="./izzyfoto/Скрол.png" alt="" class="hidden sm:block">
                 </aside>
-                <aside class="grid grid-cols-4 gap-[20px]">
+                <aside class="grid sm:grid-cols-4 gap-[20px]">
                     <div >
                         <img src="./izzyfoto/Rectangle 5 (5).png" alt="" class="w-[100%]" >
                         <div class=" flex flex-col items-start gap-[10px] py-[20px]">
@@ -160,8 +161,8 @@
                         
                     </div>
                 </aside>
-                <div class="flex justify-center">
-                    <button class="py-[8px] rounded-[20px] px-[40px] text-[#3BB96D] border-2 border-solid bg-transparent border-[#3BB96D]">Все специалисты</button>
+                <div class="flex   sm:justify-center">
+                    <button class="py-[8px]  rounded-[20px] px-[40px] text-[#3BB96D] border-2 border-solid bg-transparent border-[#3BB96D]">Все специалисты</button>
 
                 </div>
 
@@ -445,8 +446,86 @@
                 </div>
             </aside>
         </section>
+
+        
+        
         
     </main>
+
+
+    <footer>
+        <section class="bg-[#272727] flex justify-between">
+            <aside class="flex flex-col items-start py-[80px] px-[110px] gap-[40px] text-[white]">
+                <p class="text-[40px] text-white font-semibold">Наши контакты</p>
+                <div>
+                    <p>Адрес</p>
+                    <p>г. Томск, ул. 79 Гвардейской дивизии, 6</p>
+                </div>
+                <div>
+                    <p>Телефон</p>
+                    <p>8 (3822) 50-00-49</p>
+                </div>
+                <div>
+                    <p>Почта</p>
+                    <p>info@docnear.ru</p>
+                </div>
+                <button class="py-[10px] px-[30px] rounded-[20px] bg-[#3BB96D] text-white">Записаться на прием</button>
+            </aside>            
+            <aside>
+                <img src="./izzyfoto/Rectangle 175.png" alt="">
+            </aside>            
+        </section>
+
+        <section class="bg-[#279A59]">
+            <div class="grid grid-cols-5 py-[50px] w-[85%] m-auto text-white gap-[30px]">
+                <div class="flex flex-col gap-[10px] items-start">
+                    <img src="./izzyfoto/image 1 (2).png" alt="">
+                    <p>Адрес</p>
+                    <p>Москва, ул. Пушкина, д.43</p>
+                    <p>Телефон</p>
+                    <p>+7 (9__) ___-__-__</p>
+                    <p>Почта</p>
+                    <p>Poshta@gmail.com</p>
+                </div>
+                <div class="flex flex-col gap-[10px] items-start">
+                    <p class="text-[18px] font-semibold">О клинике</p>
+                    <p>Название пункта меню</p>
+                    <p>Название пункта меню</p>
+                    <p>Название пункта меню</p>
+                    <p>Название пункта меню</p>
+                    <p>Название пункта меню</p>
+                    <p>Название пункта меню</p>
+                </div>
+                <div class="flex flex-col gap-[10px] items-start">
+                    <p class="text-[18px] font-semibold">Врач</p>
+                    <p>Название пункта меню</p>
+                    <p>Название пункта меню</p>
+                    <p>Название пункта меню</p>
+                    <p>Название пункта меню</p>
+                    <p>Название пункта меню</p>
+                    <p>Название пункта меню</p>
+                </div>
+                <div class="flex flex-col gap-[10px] items-start">
+                    <p class="text-[18px] font-semibold">Пациентам</p>
+                    <p>Название пункта меню</p>
+                    <p>Название пункта меню</p>
+                    <p>Название пункта меню</p>
+                    <p>Название пункта меню</p>
+                    <p>Название пункта меню</p>
+                    <p>Название пункта меню</p>
+                </div>
+                <div class="flex flex-col gap-[10px] items-start">
+                    <p class="text-[18px] font-semibold">Услуги</p>
+                    <p>Название пункта меню</p>
+                    <p>Название пункта меню</p>
+                    <p>Название пункта меню</p>
+                    <p>Название пункта меню</p>
+                    <p>Название пункта меню</p>
+                    <p>Название пункта меню</p>
+                </div>
+            </div>
+        </section>
+    </footer>
 
 
     <style>
