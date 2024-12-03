@@ -1386,6 +1386,10 @@ video {
     gap: 5rem;
   }
 
+  .sm\:gap-6 {
+    gap: 1.5rem;
+  }
+
   .sm\:gap-8 {
     gap: 2rem;
   }
@@ -1404,18 +1408,6 @@ video {
 
   .sm\:gap-\[60px\] {
     gap: 60px;
-  }
-
-  .sm\:gap-5 {
-    gap: 1.25rem;
-  }
-
-  .sm\:gap-3 {
-    gap: 0.75rem;
-  }
-
-  .sm\:gap-6 {
-    gap: 1.5rem;
   }
 
   .sm\:bg-transparent {
