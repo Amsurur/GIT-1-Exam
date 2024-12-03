@@ -562,16 +562,8 @@ video {
   position: relative;
 }
 
-.top-0 {
-  top: 0px;
-}
-
 .right-10 {
   right: 2.5rem;
-}
-
-.top-10 {
-  top: 2.5rem;
 }
 
 .top-5 {
@@ -582,24 +574,24 @@ video {
   margin: auto;
 }
 
-.mx-3 {
-  margin-left: 0.75rem;
-  margin-right: 0.75rem;
-}
-
-.mx-5 {
-  margin-left: 1.25rem;
-  margin-right: 1.25rem;
-}
-
-.mx-2 {
-  margin-left: 0.5rem;
-  margin-right: 0.5rem;
+.my-10 {
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
 }
 
 .my-5 {
   margin-top: 1.25rem;
   margin-bottom: 1.25rem;
+}
+
+.my-3 {
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
+}
+
+.my-36 {
+  margin-top: 9rem;
+  margin-bottom: 9rem;
 }
 
 .ml-16 {
@@ -610,12 +602,16 @@ video {
   display: flex;
 }
 
-.w-\[300px\] {
-  width: 300px;
+.w-\[320px\] {
+  width: 320px;
 }
 
-.w-\[465px\] {
-  width: 465px;
+.w-\[470px\] {
+  width: 470px;
+}
+
+.w-\[636px\] {
+  width: 636px;
 }
 
 .w-\[70\%\] {
@@ -630,24 +626,24 @@ video {
   width: 90%;
 }
 
+.w-\[95\%\] {
+  width: 95%;
+}
+
 .w-full {
   width: 100%;
 }
 
-.w-\[470px\] {
-  width: 470px;
-}
-
-.w-\[280px\] {
-  width: 280px;
-}
-
-.w-\[320px\] {
-  width: 320px;
+.w-\[216px\] {
+  width: 216px;
 }
 
 .max-w-screen-2xl {
   max-width: 1536px;
+}
+
+.flex-col {
+  flex-direction: column;
 }
 
 .items-center {
@@ -660,6 +656,10 @@ video {
 
 .justify-between {
   justify-content: space-between;
+}
+
+.justify-evenly {
+  justify-content: space-evenly;
 }
 
 .gap-10 {
@@ -693,6 +693,11 @@ video {
 .bg-\[\#404243\] {
   --tw-bg-opacity: 1;
   background-color: rgb(64 66 67 / var(--tw-bg-opacity, 1));
+}
+
+.bg-\[\#EBEDEE\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(235 237 238 / var(--tw-bg-opacity, 1));
 }
 
 .bg-black {
@@ -745,9 +750,9 @@ video {
   padding-bottom: 1.25rem;
 }
 
-.py-4 {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+.px-5 {
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
 }
 
 .pb-10 {
@@ -760,6 +765,14 @@ video {
 
 .text-\[70px\] {
   font-size: 70px;
+}
+
+.text-\[30px\] {
+  font-size: 30px;
+}
+
+.text-\[10px\] {
+  font-size: 10px;
 }
 
 .text-black {
@@ -777,17 +790,16 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity, 1));
 }
 
-.text-\[\] {
-  color: ;
+.text-\[30\[x\]\] {
+  color: 30[x];
+}
+
+.text-\[30\] {
+  color: 30;
 }
 
 .underline {
   text-decoration-line: underline;
-}
-
-.outline-none {
-  outline: 2px solid transparent;
-  outline-offset: 2px;
 }
 
 .focus\:outline-none:focus {
