@@ -607,6 +607,10 @@ video {
   margin-left: 6rem;
 }
 
+.ml-96 {
+  margin-left: 24rem;
+}
+
 .ml-\[20\%\] {
   margin-left: 20%;
 }
@@ -629,6 +633,10 @@ video {
 
 .mt-20 {
   margin-top: 5rem;
+}
+
+.mt-3 {
+  margin-top: 0.75rem;
 }
 
 .mt-32 {
@@ -667,16 +675,8 @@ video {
   margin-top: 70px;
 }
 
-.ml-52 {
-  margin-left: 13rem;
-}
-
-.ml-96 {
-  margin-left: 24rem;
-}
-
-.ml-80 {
-  margin-left: 20rem;
+.mt-52 {
+  margin-top: 13rem;
 }
 
 .block {
@@ -765,6 +765,10 @@ video {
 
 .w-\[350px\] {
   width: 350px;
+}
+
+.w-\[400px\] {
+  width: 400px;
 }
 
 .w-\[50\%\] {
@@ -980,6 +984,11 @@ video {
   border-color: rgb(249 250 251 / var(--tw-border-opacity, 1));
 }
 
+.bg-\[\#141615\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(20 22 21 / var(--tw-bg-opacity, 1));
+}
+
 .bg-\[\#272727\] {
   --tw-bg-opacity: 1;
   background-color: rgb(39 39 39 / var(--tw-bg-opacity, 1));
@@ -1062,15 +1071,6 @@ video {
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
-}
-
-.bg-\[\] {
-  background-color: ;
-}
-
-.bg-\[\#141615\] {
-  --tw-bg-opacity: 1;
-  background-color: rgb(20 22 21 / var(--tw-bg-opacity, 1));
 }
 
 .p-10 {
@@ -1279,6 +1279,11 @@ video {
 
 .text-\[50px\] {
   font-size: 50px;
+}
+
+.text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
 }
 
 .text-xl {
