@@ -580,10 +580,6 @@ video {
   margin-top: 5rem;
 }
 
-.mt-24 {
-  margin-top: 6rem;
-}
-
 .mt-3 {
   margin-top: 0.75rem;
 }
@@ -600,20 +596,8 @@ video {
   display: none;
 }
 
-.w-\[280px\] {
-  width: 280px;
-}
-
 .w-\[30px\] {
   width: 30px;
-}
-
-.w-\[35\%\] {
-  width: 35%;
-}
-
-.w-\[37\%\] {
-  width: 37%;
 }
 
 .w-full {
@@ -644,12 +628,12 @@ video {
   gap: 2.5rem;
 }
 
-.gap-2 {
-  gap: 0.5rem;
+.gap-16 {
+  gap: 4rem;
 }
 
-.gap-20 {
-  gap: 5rem;
+.gap-2 {
+  gap: 0.5rem;
 }
 
 .gap-3 {
@@ -709,8 +693,8 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
 }
 
-.p-5 {
-  padding: 1.25rem;
+.p-10 {
+  padding: 2.5rem;
 }
 
 .p-\[2px\] {
@@ -726,9 +710,9 @@ video {
   padding-right: 5rem;
 }
 
-.px-32 {
-  padding-left: 8rem;
-  padding-right: 8rem;
+.px-28 {
+  padding-left: 7rem;
+  padding-right: 7rem;
 }
 
 .px-\[25px\] {
@@ -761,16 +745,32 @@ video {
   padding-bottom: 6px;
 }
 
+.px-24 {
+  padding-left: 6rem;
+  padding-right: 6rem;
+}
+
+.px-16 {
+  padding-left: 4rem;
+  padding-right: 4rem;
+}
+
+.px-12 {
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
+.px-10 {
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+}
+
 .pt-2 {
   padding-top: 0.5rem;
 }
 
 .pt-3 {
   padding-top: 0.75rem;
-}
-
-.pt-6 {
-  padding-top: 1.5rem;
 }
 
 .text-\[14px\] {
@@ -874,21 +874,23 @@ video {
   text-decoration-line: underline;
 }
 
-@media (min-width: 640px) {
-  .sm\:hidden {
-    display: none;
-  }
-}
-
 @media (min-width: 768px) {
-  .md\:hidden {
-    display: none;
+  .md\:w-\[50\%\] {
+    width: 50%;
   }
 }
 
 @media (min-width: 1024px) {
   .lg\:mt-24 {
     margin-top: 6rem;
+  }
+
+  .lg\:mt-5 {
+    margin-top: 1.25rem;
+  }
+
+  .lg\:mt-0 {
+    margin-top: 0px;
   }
 
   .lg\:block {
@@ -899,16 +901,36 @@ video {
     display: flex;
   }
 
+  .lg\:h-\[300px\] {
+    height: 300px;
+  }
+
+  .lg\:w-\[280px\] {
+    width: 280px;
+  }
+
   .lg\:w-\[35\%\] {
     width: 35%;
   }
 
-  .lg\:w-full {
-    width: 100%;
-  }
-
   .lg\:w-\[37\%\] {
     width: 37%;
+  }
+
+  .lg\:flex-row {
+    flex-direction: row;
+  }
+
+  .lg\:justify-between {
+    justify-content: space-between;
+  }
+
+  .lg\:gap-20 {
+    gap: 5rem;
+  }
+
+  .lg\:p-5 {
+    padding: 1.25rem;
   }
 
   .lg\:px-20 {
@@ -916,8 +938,16 @@ video {
     padding-right: 5rem;
   }
 
-  .lg\:px-\[25px\] {
-    padding-left: 25px;
-    padding-right: 25px;
+  .lg\:px-32 {
+    padding-left: 8rem;
+    padding-right: 8rem;
+  }
+
+  .lg\:pt-6 {
+    padding-top: 1.5rem;
+  }
+
+  .lg\:text-\[40px\] {
+    font-size: 40px;
   }
 }
