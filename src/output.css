@@ -772,6 +772,22 @@ video {
   height: auto;
 }
 
+.h-\[828px\] {
+  height: 828px;
+}
+
+.h-full {
+  height: 100%;
+}
+
+.h-\[650px\] {
+  height: 650px;
+}
+
+.h-\[700px\] {
+  height: 700px;
+}
+
 .w-4 {
   width: 1rem;
 }
@@ -1004,6 +1020,10 @@ video {
   gap: 0px;
 }
 
+.gap-11 {
+  gap: 2.75rem;
+}
+
 .space-y-2 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-y-reverse: 0;
   margin-top: calc(0.5rem * calc(1 - var(--tw-space-y-reverse)));
@@ -1186,6 +1206,11 @@ video {
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
+}
+
+.bg-\[\#8E7D6A\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(142 125 106 / var(--tw-bg-opacity, 1));
 }
 
 .bg-cover {
