@@ -586,19 +586,14 @@ video {
   margin: auto;
 }
 
-.my-\[60px\] {
-  margin-top: 60px;
-  margin-bottom: 60px;
-}
-
-.my-\[130px\] {
-  margin-top: 130px;
-  margin-bottom: 130px;
-}
-
 .my-\[50px\] {
   margin-top: 50px;
   margin-bottom: 50px;
+}
+
+.my-\[60px\] {
+  margin-top: 60px;
+  margin-bottom: 60px;
 }
 
 .mb-\[10px\] {
@@ -623,6 +618,26 @@ video {
 
 .mt-\[70px\] {
   margin-top: 70px;
+}
+
+.mt-\[\] {
+  margin-top: ;
+}
+
+.mt-\[100px\] {
+  margin-top: 100px;
+}
+
+.mt-\[80px\] {
+  margin-top: 80px;
+}
+
+.mt-\[90px\] {
+  margin-top: 90px;
+}
+
+.mt-\[60px\] {
+  margin-top: 60px;
 }
 
 .block {
@@ -735,14 +750,6 @@ video {
 
 .gap-\[55px\] {
   gap: 55px;
-}
-
-.gap-\[130px\] {
-  gap: 130px;
-}
-
-.gap-\[\] {
-  gap: ;
 }
 
 .rounded-\[20px\] {
@@ -877,6 +884,11 @@ video {
   padding-right: 1.25rem;
 }
 
+.px-8 {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
 .px-\[10px\] {
   padding-left: 10px;
   padding-right: 10px;
@@ -910,6 +922,11 @@ video {
 .px-\[80px\] {
   padding-left: 80px;
   padding-right: 80px;
+}
+
+.py-10 {
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
 }
 
 .py-\[100px\] {
@@ -972,14 +989,19 @@ video {
   padding-bottom: 8px;
 }
 
-.py-10 {
-  padding-top: 2.5rem;
-  padding-bottom: 2.5rem;
+.py-5 {
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
 }
 
-.px-8 {
-  padding-left: 2rem;
-  padding-right: 2rem;
+.py-7 {
+  padding-top: 1.75rem;
+  padding-bottom: 1.75rem;
+}
+
+.py-9 {
+  padding-top: 2.25rem;
+  padding-bottom: 2.25rem;
 }
 
 .pb-\[20px\] {
@@ -1060,6 +1082,11 @@ video {
   color: rgb(33 33 33 / var(--tw-text-opacity, 1));
 }
 
+.text-\[\#34AF66\] {
+  --tw-text-opacity: 1;
+  color: rgb(52 175 102 / var(--tw-text-opacity, 1));
+}
+
 .text-\[\#3BB96D\] {
   --tw-text-opacity: 1;
   color: rgb(59 185 109 / var(--tw-text-opacity, 1));
@@ -1100,19 +1127,6 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity, 1));
 }
 
-.text-\[82\] {
-  color: 82;
-}
-
-.text-\[\] {
-  color: ;
-}
-
-.text-\[\#34AF66\] {
-  --tw-text-opacity: 1;
-  color: rgb(52 175 102 / var(--tw-text-opacity, 1));
-}
-
 .underline {
   text-decoration-line: underline;
 }
@@ -1135,25 +1149,28 @@ video {
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
-.shadow {
-  --tw-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
-  --tw-shadow-colored: 0 1px 3px 0 var(--tw-shadow-color), 0 1px 2px -1px var(--tw-shadow-color);
+.shadow-\[10px_10px_20px_rgba\(0\2c 0\2c 0\2c 0\.5\)\] {
+  --tw-shadow: 10px 10px 20px rgba(0,0,0,0.5);
+  --tw-shadow-colored: 10px 10px 20px var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
-.shadow-\[\] {
-  --tw-shadow-color: ;
-  --tw-shadow: var(--tw-shadow-colored);
+.shadow-\[0px_10px_20px_rgba\(0\2c 0\2c 0\2c 0\.5\)\] {
+  --tw-shadow: 0px 10px 20px rgba(0,0,0,0.5);
+  --tw-shadow-colored: 0px 10px 20px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
-.shadow-\[0-0-\] {
-  --tw-shadow-color: 0-0-;
-  --tw-shadow: var(--tw-shadow-colored);
+.shadow-\[0px_0px_20px_rgba\(0\2c 0\2c 0\2c 0\.5\)\] {
+  --tw-shadow: 0px 0px 20px rgba(0,0,0,0.5);
+  --tw-shadow-colored: 0px 0px 20px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
-.shadow-\[0-0-5-gray\] {
-  --tw-shadow-color: 0-0-5-gray;
-  --tw-shadow: var(--tw-shadow-colored);
+.shadow-\[0px_0px_5px_rgba\(0\2c 0\2c 0\2c 0\.5\)\] {
+  --tw-shadow: 0px 0px 5px rgba(0,0,0,0.5);
+  --tw-shadow-colored: 0px 0px 5px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
 @media (min-width: 640px) {
@@ -1267,24 +1284,12 @@ video {
     display: none;
   }
 
-  .lg\:w-\[40\%\] {
-    width: 40%;
-  }
-
-  .lg\:w-\[35\%\] {
-    width: 35%;
+  .lg\:w-\[28\%\] {
+    width: 28%;
   }
 
   .lg\:w-\[38\%\] {
     width: 38%;
-  }
-
-  .lg\:w-\[30\%\] {
-    width: 30%;
-  }
-
-  .lg\:w-\[28\%\] {
-    width: 28%;
   }
 
   .lg\:flex-row {
@@ -1306,9 +1311,5 @@ video {
 
   .lg\:text-\[82px\] {
     font-size: 82px;
-  }
-
-  .lg\:text-\[82\] {
-    color: 82;
   }
 }
