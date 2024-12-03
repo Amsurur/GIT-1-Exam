@@ -9,49 +9,26 @@
       .back_photo {
         background-image: url("./img/muhsin/snapedit_1733161404034.jpg");
         /*удалено текст, фото изменено на сайте snapedit, потому что на фигме невозможно изъят фото отдельно*/
-        width: 100%;
-        height: 828px;
-        background-repeat: no-repeat;
-        background-size: cover;
-
-        display: flex;
-        align-items: center;
       }
 
       .img_back2 {
         background-image: url("./img/muhsin/snapedit_1733224380561.jpg");
-        width: 100%;
-        height: 791px;
         background-repeat: no-repeat;
-        background-size: cover;
-        margin: 90px 0px 90px 0px;
-
-        display: flex;
-        align-items: center;
       }
 
       .img_back3{
         background-image: url("./img/muhsin/snapedit_1733228307016.jpg");
-        width: 100%;
-        height: 803px;
         background-repeat: no-repeat;
-        background-size: cover;
-        margin: 90px 0px 90px 0px;
-
-
-        display: flex;
-        align-items: center;
       }
     </style>
   </head>
   <body class="max-w-screen-2xl m-auto">
-    <header>
-      <nav class="flex w-[90%] m-auto justify-between py-5 items-center">
-        <div class="flex items-center gap-14">
+    <header class="flex w-[90%] m-auto justify-between py-5 items-center">
+      <nav class="flex items-center gap-14">
           <div>
             <img src="./img/muhsin/Logo.png" alt="" />
           </div>
-          <ul class="flex gap-5 items-center">
+          <ul class="hidden md:flex gap-5 items-center">
             <li>
               <select name="" id="">
                 <option value="">ELECTRIC</option>
@@ -75,7 +52,7 @@
               </select>
             </li>
           </ul>
-        </div>
+        </nav>
 
         <div class="flex items-center gap-10">
           <div class="flex">
@@ -89,20 +66,21 @@
             <img src="./img/muhsin/Label.png" alt="" />
           </div>
         </div>
-      </nav>
-
-      <div class="back_photo">
-        <div class="text-white ml-16">
-          <p>VELORETTI ELECTRIC</p>
-          <h1 class="text-[70px]">This is Two.</h1>
-          <p>Introducing the all-new Ivy and Ace</p>
-        </div>
-      </div>
     </header>
 
     <main>
-        <section class="w-[95%] m-auto my-36 flex justify-evenly">
-            <div class="w-[636px] bg-[#EBEDEE] px-5 py-3">
+        <section>
+            <div class="back_photo md:h-[828px] h-[300px] w-full bg-cover bg-center flex items-center justify-center md:justify-start">
+              <div class="text-white lg:ml-16 ml-0 md:text-left text-center">
+                <p>VELORETTI ELECTRIC</p>
+                <h1 class="text-[40px] md:text-[70px]">This is Two.</h1>
+                <p>Introducing the all-new Ivy and Ace</p>
+              </div>
+            </div>
+          </section>          
+
+        <section class="w-[95%] m-auto md:my-36 my-8 flex flex-col md:gap-0 gap-7 lg:flex-row justify-evenly">
+            <div class="md:w-[636px] w-[90%] md:m-0 m-auto bg-[#EBEDEE] px-5 py-3">
                 <div>
                     <div class="w-[216px] flex gap-4">
                         <h3 class="text-[30px]">Electric Ace</h3>
@@ -125,7 +103,7 @@
                           </button>
                         </div>
 
-                          <div class="flex">
+                          <div class="md:flex hidden">
                             <div>
                                 <img src="./img/muhsin/Button.png" alt="">
                             </div>
@@ -142,7 +120,7 @@
                 </div>
             </div>
 
-            <div class="w-[636px] bg-[#EBEDEE] px-5 py-3">
+            <div class="md:w-[636px] w-[90%] md:m-0 m-auto bg-[#EBEDEE] px-5 py-3">
                 <div>
                     <div class="w-[216px] flex gap-4">
                         <h3 class="text-[30px]">Electric Ivy</h3>
@@ -165,7 +143,7 @@
                           </button>
                         </div>
 
-                          <div class="flex">
+                          <div class="md:flex hidden">
                             <div>
                                 <img src="./img/muhsin/Button.png" alt="">
                             </div>
@@ -183,19 +161,19 @@
             </div>
         </section>
 
-        <section class="my-36">
-            <aside class="w-[98%] m-auto flex justify-between">
+        <section class="md:my-36 my-8">
+            <aside class="w-[98%] m-auto flex justify-between items-center overflow-hidden">
                 <div>
-                    <h2 class="text-[25px]">Explore our bikes</h2>
+                  <h2 class="text-[20px] md:text-[25px]">Explore our bikes</h2>
                 </div>
-                <div class="flex gap-10 box-border">
-                    <img src="./img/muhsin/SVG5.png" alt="">
-                    <img src="./img/muhsin/Button → SVG.png" alt="">
+                <div class="hidden md:flex gap-4 lg:gap-10 overflow-x-auto">
+                  <img src="./img/muhsin/SVG5.png" alt="Icon 1" class="w-6 h-6 lg:w-8 lg:h-8">
+                  <img src="./img/muhsin/Button → SVG.png" alt="Button Icon" class="w-6 h-6 lg:w-8 lg:h-8">
                 </div>
-            </aside>
+              </aside>                          
 
-            <div class="flex justify-end gap-16 py-7">
-                <div class="w-[540px] bg-[#EBEDEE]">
+            <div class="flex flex-col lg:flex-row justify-end gap-16 py-7">
+                <div class="md:w-[540px] w-[90%] m-auto md:m-0 bg-[#EBEDEE]">
                     <div class="w-[80%] m-auto py-8">
                         <div class="flex justify-between items-center">
                             <h3 class="text-[30px]">City Bikes</h3>
@@ -220,7 +198,7 @@
                         </div>
                     </div>
 
-                    <div class="w-[540px] bg-[#EBEDEE]">
+                    <div class="md:w-[540px] w-[90%] m-auto md:m-0 bg-[#EBEDEE]">
                         <div class="w-[80%] m-auto py-8">
                             <div class="flex justify-between items-center">
                                 <h3 class="text-[30px]">City Bikes</h3>
@@ -245,7 +223,7 @@
                             </div>
                         </div>
 
-                        <div class="w-[190px] bg-[#EBEDEE]">
+                        <div class="w-[190px] bg-[#EBEDEE] md:block hidden">
                             <div class="w-[80%] m-auto py-8">
                                 <div>
                                     <h3 class="text-[30px]">City Bikes</h3>
@@ -270,117 +248,116 @@
 
         <section class="w-[95%] m-auto">
             <aside>
-                <h2 class="text-[70px]">Make your commute <br>
+                <h2 class="md:text-[70px] text-[30px]">Make your commute <br class="md:block hidden">
                     the best part of your day.</h2>
             </aside>
-            <aside class="flex justify-between my-32">
-                <p>Clean and timeless designs that make every ride a thrill. <br>
-                    Wherever you're heading, our bikes are made to make your daily <br>
+            <aside class="flex justify-between md:my-32 my-7">
+                <p>Clean and timeless designs that make every ride a thrill. <br class="md:block hidden">
+                    Wherever you're heading, our bikes are made to make your daily <br class="md:block hidden">
                     commute a joy.</p>
-                    <div>
+                    <div class="md:block hidden">
                         <img src="./img/muhsin/SVG6.png" alt="">
                     </div>
             </aside>
         </section>
 
-        <section class="img_back2">
-            <div class="w-[350px] flex flex-col gap-5 text-white ml-16">
-                <h1 class="text-[50px]">Discover your
-                    local Veloretti
-                    partner store</h1>
-                    <p>Our partner stores across the Netherlands
-                        are there for you. Whether you're looking to
-                        pick up a newly ordered bike, need a fix, or
-                        want to take a test ride on our Ivy or Ace Two,
-                        your ideal biking experience is closer than
-                        you think.</p>
-
-                        <button class="py-3 px-8 rounded-3xl bg-white text-black">
-                            Find a partner store near you
-                          </button>
+        <section class="img_back2 md:h-[791px] h-[500px] bg-cover bg-center flex items-center justify-center md:justify-start">
+            <div class="w-[350px] flex flex-col gap-5 text-white md:ml-16 mx-4 text-center md:text-left">
+              <h1 class="md:text-[50px] text-[30px]">Discover your local Veloretti partner store</h1>
+              <p>Our partner stores across the Netherlands are there for you. Whether you're looking to pick up a newly ordered bike, need a fix, or want to take a test ride on our Ivy or Ace Two, your ideal biking experience is closer than you think.</p>
+              <button class="py-3 px-8 rounded-3xl bg-white text-black">Find a partner store near you</button>
             </div>
-        </section>
+          </section>     
 
-        <section class="w-[95%] m-auto flex justify-between items-center my-32">
+        <section class="w-[95%] m-auto flex justify-between items-center md:my-32 my-8 flex-col md:flex-row">
             <div>
                 <div>
-                    <img src="./img/muhsin/image (1).png" alt="">
+                    <img src="./img/muhsin/image (1).png" alt="" class="w-full md:w-auto">
                 </div>
             </div>
-            <div class="w-[468px]">
-                <h2 class="text-[50px] py-4">Leasing</h2>
-                <p class="text-gray-500">Want to provide your organisation with mobility in a unique and
+            <div class="w-full md:w-[468px] text-center md:text-left mt-8 md:mt-0">
+                <h2 class="text-[36px] md:text-[50px] py-4">Leasing</h2>
+                <p class="text-gray-500 text-[16px] md:text-[18px]">
+                    Want to provide your organisation with mobility in a unique and
                     creative way? Our Electric and City bikes are the perfect solution for
                     healthier employees. So whether it's customised employee bicycles
                     or standout promotional rides, both small and big organisations
                     share the love of our Veloretti designs. Depending on the number of
-                    bikes, we will give you a customised quote.</p>
-
-                    <p class="py-6">
-                        Learn more
-                      </p>
+                    bikes, we will give you a customised quote.
+                </p>
+                <p class="py-6">Learn more</p>
             </div>
         </section>
-
+        
         <section class="w-[95%] m-auto">
-            <h2 class="text-[70px]">They talked about us</h2>
-
-            <div class="grid grid-cols-3 grid-rows-1 my-20">
-                <div class="w-[423px] border-2 border-gray-300 py-8">
-                    <div class="w-[85%] m-auto">
-                        <p class="text-[20px]">"One of the best e-bikes available at
-                            any price and far and away my
-                            favourite ride of the year."</p>
-                            <div class="py-5">
-                                <img src="./img/muhsin/Span.png" alt="">
-                            </div>
-                    </div>
+            <h2 class="md:text-[70px] text-[35px]">They talked about us</h2>
+          
+            <div class="grid md:grid-cols-3 grid-cols-1 grid-rows-1 md:my-20 my-5 md:gap-0 gap-5">
+              <div class="w-full md:w-[423px] border-2 border-gray-300 py-8">
+                <div class="w-[85%] m-auto">
+                  <p class="text-[20px]">"One of the best e-bikes available at any price and far and away my favourite ride of the year."</p>
+                  <div class="py-5">
+                    <img src="./img/muhsin/Span.png" alt="">
+                  </div>
                 </div>
-
-                <div class="w-[423px] border-2 border-gray-300 py-8">
-                    <div class="w-[85%] m-auto">
-                        <p class="text-[20px]">“This second-generation Ace is a
-                            superhero amongst urban e-
-                            bikes… 9/10.”</p>
-                            <div class="py-5">
-                                <img src="./img/muhsin/Collection-item-info-testimonial_icon-Wrapper.png" alt="">
-                            </div>
-                    </div>
+              </div>
+          
+              <div class="w-full md:w-[423px] border-2 border-gray-300 py-8">
+                <div class="w-[85%] m-auto">
+                  <p class="text-[20px]">“This second-generation Ace is a superhero amongst urban e-bikes… 9/10.”</p>
+                  <div class="py-5">
+                    <img src="./img/muhsin/Collection-item-info-testimonial_icon-Wrapper.png" alt="">
+                  </div>
                 </div>
+              </div>
+          
+              <div class="w-full md:w-[423px] border-2 border-gray-300 py-8">
+                <div class="w-[85%] m-auto">
+                  <p class="text-[20px]">"The timeless, chic design and stunning craftsmanship make them the perfect way to get around the city."</p>
+                  <div class="py-5">
+                    <img src="./img/muhsin/Collection-item-info-testimonial_icon-Wrapper (1).png" alt="">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          
+        <section class="img_back3 md:h-[803px] h-[600px] w-full bg-cover bg-center flex items-center justify-center md:justify-start">
+            <div class="w-[406px] flex flex-col gap-5 text-white md:ml-16 ml-0 text-center md:text-left">
+              <h1 class="md:text-[50px] text-[30px]">Red Dot Award</h1>
+              <p>Good design is what drives us, and we're <br>
+                proud to share that Veloretti Electric Two has <br>
+                already won the prestigious Red Dot Design <br>
+                Award 2023, as judged by the world's best <br>
+                product designers.</p>
+          
+              <p class="py-3 text-[26px]">
+                red<span class="text-red-600">dot</span> winner 2023
+              </p>
+            </div>
+          </section>          
 
-                <div class="w-[423px] border-2 border-gray-300 py-8">
-                    <div class="w-[85%] m-auto">
-                        <p class="text-[20px]">"The timeless, chic design and
-                            stunning craftsmanship make
-                            them the perfect way to get
-                            around the city."</p>
-                            <div class="py-5">
-                                <img src="./img/muhsin/Collection-item-info-testimonial_icon-Wrapper (1).png" alt="">
-                            </div>
-                    </div>
+        <section class="w-[95%] m-auto flex flex-col md:flex-row justify-between items-center md:my-32 my-6">
+            <div class="w-full md:w-[468px] text-center md:text-left">
+                <h2 class="text-[36px] md:text-[50px] py-4">Ride carefree</h2>
+                <p class="text-gray-500 text-[16px] md:text-[18px]">
+                    Our Qover x Veloretti insurance plan has got you covered. It offers
+                    comprehensive coverage against theft, provides assistance in case
+                    of any issues, and covers any damages to your bike.
+                </p>
+                <p class="py-6">Learn more</p>
+            </div>
+            <div class="w-full md:w-auto mt-8 md:mt-0">
+                <div>
+                    <img src="./img/muhsin/Text-media-static_background.png" alt="" class="w-full md:w-auto">
                 </div>
             </div>
         </section>
-
-        <section class="img_back3">
-            <div class="w-[406px] flex flex-col gap-5 text-white ml-16">
-                <h1 class="text-[50px]">Red Dot Award</h1>
-                    <p>Good design is what drives us, and we're <br>
-                        proud to share that Veloretti Electric Two has <br>
-                        already won the prestigious Red Dot Design <br>
-                        Award 2023, as judged by the world's best <br>
-                        product designers.</p>
-
-                        <p class="py-3 text-[26px]">
-                           red<span class="text-red-600">dot</span> winner 2023
-                          </p>
-            </div>
-        </section>
-
+        
 
       <aside class="w-full bg-[#404243]">
         <div
-          class="w-[70%] m-auto flex justify-between items-center py-10 text-white"
+          class="w-[70%] m-auto flex flex-col md:flex-row gap-5 md:gap-0 justify-between items-center py-10 text-white"
         >
           <div>
             <p>
@@ -401,96 +378,81 @@
       </aside>
     </main>
 
-    <footer class="bg-black pb-10 relative">
-      <div class="w-[90%] m-auto flex justify-between text-white py-16">
-        <div class="w-[800px] flex justify-between">
-          <div>
-            <h3 class="py-3 text-[20px]">Exploler</h3>
-            <ul class="text-gray-400">
-              <li>Electric bikes</li>
-              <li>City bikes</li>
-              <li>Kids' bikes</li>
-              <li>Accessories</li>
-              <li>Outlet</li>
-              <li>Business</li>
-              <li>Insurance Electric</li>
-              <li>Size guide</li>
-            </ul>
-          </div>
-
-          <div>
-            <h3 class="py-3 text-[20px]">About</h3>
-            <ul class="text-gray-400">
-              <li>About us</li>
-              <li>Journal</li>
-              <li>Reviews</li>
-              <li>Press</li>
-              <li>Jobs</li>
-            </ul>
-          </div>
-
-          <div>
-            <h3 class="py-3 text-[20px]">Help</h3>
-            <ul class="text-gray-400">
-              <li>Contact</li>
-              <li>FAQ</li>
-              <li>Delivery</li>
-              <li>Assembly & manuals</li>
-              <li>Payment options</li>
-              <li>Privacy policy</li>
-              <li>Terms & conditions</li>
-            </ul>
-          </div>
-        </div>
-
-        <div>
-          <h2 class="text-[20px]">Join the ride.</h2>
-          <p class="py-3">Sign up for our newsletter.</p>
-
-          <div
-            class="w-[470px] py-2 my-5 border-2 border-gray-70000 rounded-3xl"
-          >
-            <input
-              type="email"
-              class="w-[320px] px-4 bg-black border-none focus:outline-none"
-              placeholder="Enter your email address here"
-            />
-            <button class="py-3 px-8 rounded-3xl bg-white text-black">
-              Subscribe
-            </button>
-          </div>
-
-          <div class="flex gap-4 justify-center">
-            <input type="checkbox" />
-            <p>
-              By signing up, I agree to the
-              <span class="underline">privacy policy</span> of Veloretti.
-            </p>
-          </div>
-
-          <div class="flex gap-5 py-10">
-            <div>
-              <img src="./img/muhsin/SVG (1).png" alt="" />
+    <footer class="bg-black md:pb-10 pb-0 relative">
+        <div class="w-[90%] m-auto flex flex-col md:flex-row justify-between text-white py-16">
+          <div class="w-full md:w-[800px] flex flex-col md:flex-row justify-between mb-10 md:mb-0">
+            <div class="mb-6 md:mb-0">
+              <h3 class="py-3 text-[20px]">Explorer</h3>
+              <ul class="text-gray-400 space-y-2">
+                <li>Electric bikes</li>
+                <li>City bikes</li>
+                <li>Kids' bikes</li>
+                <li>Accessories</li>
+                <li>Outlet</li>
+                <li>Business</li>
+                <li>Insurance Electric</li>
+                <li>Size guide</li>
+              </ul>
             </div>
-            <div>
-              <img src="./img/muhsin/SVG1.png" alt="" />
+      
+            <div class="mb-6 md:mb-0">
+              <h3 class="py-3 text-[20px]">About</h3>
+              <ul class="text-gray-400 space-y-2">
+                <li>About us</li>
+                <li>Journal</li>
+                <li>Reviews</li>
+                <li>Press</li>
+                <li>Jobs</li>
+              </ul>
             </div>
+      
             <div>
-              <img src="./img/muhsin/SVG2.png" alt="" />
+              <h3 class="py-3 text-[20px]">Help</h3>
+              <ul class="text-gray-400 space-y-2">
+                <li>Contact</li>
+                <li>FAQ</li>
+                <li>Delivery</li>
+                <li>Assembly & manuals</li>
+                <li>Payment options</li>
+                <li>Privacy policy</li>
+                <li>Terms & conditions</li>
+              </ul>
             </div>
-            <div>
-              <img src="./img/muhsin/SVG3.png" alt="" />
+          </div>
+      
+          <div class="w-full md:w-auto">
+            <h2 class="text-[20px]">Join the ride.</h2>
+            <p class="py-3">Sign up for our newsletter.</p>
+      
+            <div class="flex flex-col items-center md:items-start">
+              <div class="w-full md:w-[470px] flex border-2 border-gray-700 rounded-3xl overflow-hidden">
+                <input
+                  type="email"
+                  class="flex-1 px-4 bg-black text-white border-none focus:outline-none"
+                  placeholder="Enter your email address here"
+                />
+                <button class="py-3 px-6 bg-white text-black">Subscribe</button>
+              </div>
+      
+              <div class="flex gap-2 items-center mt-4 text-sm">
+                <input type="checkbox" class="w-4 h-4" />
+                <p>By signing up, I agree to the <span class="underline">privacy policy</span> of Veloretti.</p>
+              </div>
             </div>
-            <div>
-              <img src="./img/muhsin/SVG4.png" alt="" />
+      
+            <div class="flex justify-center md:justify-start gap-5 py-10">
+              <img src="./img/muhsin/SVG (1).png" alt="" class="w-6 h-6" />
+              <img src="./img/muhsin/SVG1.png" alt="" class="w-6 h-6" />
+              <img src="./img/muhsin/SVG2.png" alt="" class="w-6 h-6" />
+              <img src="./img/muhsin/SVG3.png" alt="" class="w-6 h-6" />
+              <img src="./img/muhsin/SVG4.png" alt="" class="w-6 h-6" />
             </div>
           </div>
         </div>
-      </div>
-
-      <div class="absolute top-5 right-10">
-        <img src="./img/muhsin/Footer_top-Scroll-Button.png" alt="">
-      </div>
-    </footer>
+      
+        <div class="absolute top-5 right-10">
+          <img src="./img/muhsin/Footer_top-Scroll-Button.png" alt="">
+        </div>
+      </footer>      
   </body>
 </html>
