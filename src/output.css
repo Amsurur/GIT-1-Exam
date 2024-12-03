@@ -701,6 +701,14 @@ video {
   gap: 1;
 }
 
+.gap-10 {
+  gap: 2.5rem;
+}
+
+.gap-20 {
+  gap: 5rem;
+}
+
 .rounded-\[100px\] {
   border-radius: 100px;
 }
@@ -752,6 +760,10 @@ video {
 .bg-\[\#F1F5F8\] {
   --tw-bg-opacity: 1;
   background-color: rgb(241 245 248 / var(--tw-bg-opacity, 1));
+}
+
+.bg-\[\] {
+  background-color: ;
 }
 
 .p-\[30px\] {
@@ -904,6 +916,11 @@ video {
 
 .text-\[\] {
   color: ;
+}
+
+.text-\[\#000000\] {
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity, 1));
 }
 
 .underline {
