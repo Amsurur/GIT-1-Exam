@@ -1324,6 +1324,11 @@ video {
   --tw-shadow: var(--tw-shadow-colored);
 }
 
+.shadow-gray-300 {
+  --tw-shadow-color: #d1d5db;
+  --tw-shadow: var(--tw-shadow-colored);
+}
+
 @media (min-width: 640px) {
   .sm\:mt-\[0px\] {
     margin-top: 0px;
