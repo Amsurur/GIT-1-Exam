@@ -827,6 +827,10 @@ video {
   width: 1300;
 }
 
+.w-\[1000px\] {
+  width: 1000px;
+}
+
 .grid-cols-2 {
   grid-template-columns: repeat(2, minmax(0, 1fr));
 }
@@ -1141,6 +1145,10 @@ video {
   padding: 20px;
 }
 
+.p-4 {
+  padding: 1rem;
+}
+
 .px-10 {
   padding-left: 2.5rem;
   padding-right: 2.5rem;
@@ -1259,6 +1267,11 @@ video {
 .py-\[8px\] {
   padding-top: 8px;
   padding-bottom: 8px;
+}
+
+.py-\[5\] {
+  padding-top: 5;
+  padding-bottom: 5;
 }
 
 .pb-\[20px\] {
