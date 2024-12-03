@@ -731,6 +731,14 @@ video {
   width: 100%;
 }
 
+.w-\[1200px\] {
+  width: 1200px;
+}
+
+.w-\[1300px\] {
+  width: 1300px;
+}
+
 .w-\[140px\] {
   width: 140px;
 }
@@ -783,10 +791,6 @@ video {
   width: 85%;
 }
 
-.w-\[900px\] {
-  width: 900px;
-}
-
 .w-\[95\%\] {
   width: 95%;
 }
@@ -831,10 +835,6 @@ video {
   justify-content: space-around;
 }
 
-.justify-evenly {
-  justify-content: space-evenly;
-}
-
 .gap-1 {
   gap: 0.25rem;
 }
@@ -849,10 +849,6 @@ video {
 
 .gap-20 {
   gap: 5rem;
-}
-
-.gap-28 {
-  gap: 7rem;
 }
 
 .gap-3 {
@@ -1053,6 +1049,11 @@ video {
   background-color: rgb(255 219 92 / var(--tw-bg-opacity, 1));
 }
 
+.bg-\[\#FFF7E1\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 247 225 / var(--tw-bg-opacity, 1));
+}
+
 .bg-\[white\] {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
@@ -1076,8 +1077,16 @@ video {
   padding: 2.5rem;
 }
 
+.p-16 {
+  padding: 4rem;
+}
+
 .p-2 {
   padding: 0.5rem;
+}
+
+.p-20 {
+  padding: 5rem;
 }
 
 .p-3 {
@@ -1086,6 +1095,10 @@ video {
 
 .p-5 {
   padding: 1.25rem;
+}
+
+.p-6 {
+  padding: 1.5rem;
 }
 
 .p-8 {
@@ -1244,6 +1257,11 @@ video {
 .text-3xl {
   font-size: 1.875rem;
   line-height: 2.25rem;
+}
+
+.text-6xl {
+  font-size: 3.75rem;
+  line-height: 1;
 }
 
 .text-\[12px\] {
@@ -1453,6 +1471,14 @@ video {
     width: 70%;
   }
 
+  .sm\:w-\[900px\] {
+    width: 900px;
+  }
+
+  .sm\:flex-none {
+    flex: none;
+  }
+
   .sm\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
@@ -1493,6 +1519,10 @@ video {
     justify-content: space-evenly;
   }
 
+  .sm\:gap-10 {
+    gap: 2.5rem;
+  }
+
   .sm\:gap-16 {
     gap: 4rem;
   }
@@ -1503,6 +1533,14 @@ video {
 
   .sm\:gap-20 {
     gap: 5rem;
+  }
+
+  .sm\:gap-28 {
+    gap: 7rem;
+  }
+
+  .sm\:gap-5 {
+    gap: 1.25rem;
   }
 
   .sm\:gap-6 {
@@ -1533,8 +1571,16 @@ video {
     background-color: transparent;
   }
 
+  .sm\:p-2 {
+    padding: 0.5rem;
+  }
+
   .sm\:p-5 {
     padding: 1.25rem;
+  }
+
+  .sm\:p-8 {
+    padding: 2rem;
   }
 
   .sm\:px-\[0px\] {
