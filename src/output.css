@@ -605,6 +605,10 @@ video {
   margin-bottom: 10px;
 }
 
+.mb-\[15px\] {
+  margin-bottom: 15px;
+}
+
 .ml-\[20px\] {
   margin-left: 20px;
 }
@@ -623,6 +627,14 @@ video {
 
 .mt-\[70px\] {
   margin-top: 70px;
+}
+
+.mb-\[20px\] {
+  margin-bottom: 20px;
+}
+
+.mb-\[25px\] {
+  margin-bottom: 25px;
 }
 
 .block {
@@ -669,14 +681,6 @@ video {
   width: 85%;
 }
 
-.w-\[70\%\] {
-  width: 70%;
-}
-
-.w-\[60\%\] {
-  width: 60%;
-}
-
 .max-w-\[1600px\] {
   max-width: 1600px;
 }
@@ -687,10 +691,6 @@ video {
 
 .grid-cols-2 {
   grid-template-columns: repeat(2, minmax(0, 1fr));
-}
-
-.grid-cols-4 {
-  grid-template-columns: repeat(4, minmax(0, 1fr));
 }
 
 .grid-rows-2 {
@@ -747,6 +747,18 @@ video {
 
 .gap-\[55px\] {
   gap: 55px;
+}
+
+.gap-\[48px\] {
+  gap: 48px;
+}
+
+.gap-\[70px\] {
+  gap: 70px;
+}
+
+.gap-\[100px\] {
+  gap: 100px;
 }
 
 .rounded-\[20px\] {
@@ -999,16 +1011,6 @@ video {
   padding-bottom: 8px;
 }
 
-.px-2 {
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
-}
-
-.px-4 {
-  padding-left: 1rem;
-  padding-right: 1rem;
-}
-
 .pb-\[20px\] {
   padding-bottom: 20px;
 }
@@ -1097,6 +1099,11 @@ video {
   color: rgb(59 185 109 / var(--tw-text-opacity, 1));
 }
 
+.text-\[\#4CB778\] {
+  --tw-text-opacity: 1;
+  color: rgb(76 183 120 / var(--tw-text-opacity, 1));
+}
+
 .text-\[\#58BB81\] {
   --tw-text-opacity: 1;
   color: rgb(88 187 129 / var(--tw-text-opacity, 1));
@@ -1122,6 +1129,11 @@ video {
   color: rgb(128 128 128 / var(--tw-text-opacity, 1));
 }
 
+.text-\[grey\] {
+  --tw-text-opacity: 1;
+  color: rgb(128 128 128 / var(--tw-text-opacity, 1));
+}
+
 .text-\[white\] {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity, 1));
@@ -1135,16 +1147,6 @@ video {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity, 1));
-}
-
-.text-\[grey\] {
-  --tw-text-opacity: 1;
-  color: rgb(128 128 128 / var(--tw-text-opacity, 1));
-}
-
-.text-\[\#4CB778\] {
-  --tw-text-opacity: 1;
-  color: rgb(76 183 120 / var(--tw-text-opacity, 1));
 }
 
 .underline {
@@ -1289,14 +1291,6 @@ video {
 }
 
 @media (min-width: 768px) {
-  .md\:grid {
-    display: grid;
-  }
-
-  .md\:grid-cols-4 {
-    grid-template-columns: repeat(4, minmax(0, 1fr));
-  }
-
   .md\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
@@ -1354,6 +1348,10 @@ video {
 
   .lg\:gap-\[40px\] {
     gap: 40px;
+  }
+
+  .lg\:gap-\[100px\] {
+    gap: 100px;
   }
 
   .lg\:py-\[0px\] {
