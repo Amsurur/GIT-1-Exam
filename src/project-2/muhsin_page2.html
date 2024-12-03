@@ -1,67 +1,194 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Veloretti</title>
-    <link rel="stylesheet" href="../output.css">
-</head>
-<body class="max-w-screen-2xl m-auto">
+    <link rel="stylesheet" href="../output.css" />
+    <style>
+      .back_photo {
+        background-image: url("./img/muhsin/snapedit_1733161404034.jpg");
+        /*удалено текст фото в сайте snapedit, потому что на фигме невозможно изъят фото отдельно*/
+        width: 100%;
+        height: 828px;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        display: flex;
+        align-items: center;
+      }
+    </style>
+  </head>
+  <body class="max-w-screen-2xl m-auto">
     <header>
-        <nav class="flex w-[90%] m-auto justify-between py-5 items-center">
-            <div class="flex items-center gap-14">
-                <div>
-                    <img src="./img/muhsin/Logo.png" alt="">
-                </div>
-                <ul class="flex gap-5 items-center">
-                    <li>
-                        <select name="" id="">
-                            <option value="">ELECTRIC</option>
-                        </select>
-                    </li>
-                    <li>
-                        <select name="" id="">
-                            <option value="">CITY</option>
-                        </select>
-                    </li>
-                    <li>
-                        <select name="" id="">
-                            <option value="">KIDS</option>
-                        </select>
-                    </li>
-                    <li>ACCESSORIES</li>
-                    <li>STORIES</li>
-                    <li>
-                        <select name="" id="">
-                            <option value="">LEASING</option>
-                        </select>
-                    </li>
-                </ul>
-            </div>
+      <nav class="flex w-[90%] m-auto justify-between py-5 items-center">
+        <div class="flex items-center gap-14">
+          <div>
+            <img src="./img/muhsin/Logo.png" alt="" />
+          </div>
+          <ul class="flex gap-5 items-center">
+            <li>
+              <select name="" id="">
+                <option value="">ELECTRIC</option>
+              </select>
+            </li>
+            <li>
+              <select name="" id="">
+                <option value="">CITY</option>
+              </select>
+            </li>
+            <li>
+              <select name="" id="">
+                <option value="">KIDS</option>
+              </select>
+            </li>
+            <li>ACCESSORIES</li>
+            <li>STORIES</li>
+            <li>
+              <select name="" id="">
+                <option value="">LEASING</option>
+              </select>
+            </li>
+          </ul>
+        </div>
 
-            <div class="flex items-center gap-10">
-                <div class="flex">
-                    <p>EN</p>
-                    <img src="./img/muhsin/UK-SVG.png" alt="">
-                </div>
-                <div>
-                    <img src="./img/muhsin/SVG.png" alt="">
-                </div>
-                <div>
-                    <img src="./img/muhsin/Label.png" alt="">
-                </div>
-            </div>
-        </nav>
+        <div class="flex items-center gap-10">
+          <div class="flex">
+            <p>EN</p>
+            <img src="./img/muhsin/UK-SVG.png" alt="" />
+          </div>
+          <div>
+            <img src="./img/muhsin/SVG.png" alt="" />
+          </div>
+          <div>
+            <img src="./img/muhsin/Label.png" alt="" />
+          </div>
+        </div>
+      </nav>
 
-        
+      <div class="back_photo">
+        <div class="text-white ml-16">
+          <p>VELORETTI ELECTRIC</p>
+          <h1 class="text-[70px]">This is Two.</h1>
+          <p>Introducing the all-new Ivy and Ace</p>
+        </div>
+      </div>
     </header>
 
     <main>
-
+      <aside class="w-full bg-[#404243]">
+        <div
+          class="w-[70%] m-auto flex justify-between items-center py-10 text-white"
+        >
+          <div>
+            <p>
+              Ready to take the Electric Ivy or Ace for a spin? Electric test
+              rides are now available in <br />
+              Amsterdam, Amstelveen, Abcoude, Bussum, Den Haag, Nijmegen, Weesp,
+              Wormerveer, <br />
+              Berlin, Hamburg and Munich. Schedule your test ride now and we'll
+              see you there.
+            </p>
+          </div>
+          <div>
+            <button class="py-3 px-10 text-black bg-white rounded-3xl">
+              BOOK NOW
+            </button>
+          </div>
+        </div>
+      </aside>
     </main>
 
-    <footer>
+    <footer class="bg-black pb-10 relative">
+      <div class="w-[90%] m-auto flex justify-between text-white py-16">
+        <div class="w-[800px] flex justify-between">
+          <div>
+            <h3 class="py-3 text-[20px]">Exploler</h3>
+            <ul class="text-gray-400">
+              <li>Electric bikes</li>
+              <li>City bikes</li>
+              <li>Kids' bikes</li>
+              <li>Accessories</li>
+              <li>Outlet</li>
+              <li>Business</li>
+              <li>Insurance Electric</li>
+              <li>Size guide</li>
+            </ul>
+          </div>
 
+          <div>
+            <h3 class="py-3 text-[20px]">About</h3>
+            <ul class="text-gray-400">
+              <li>About us</li>
+              <li>Journal</li>
+              <li>Reviews</li>
+              <li>Press</li>
+              <li>Jobs</li>
+            </ul>
+          </div>
+
+          <div>
+            <h3 class="py-3 text-[20px]">Help</h3>
+            <ul class="text-gray-400">
+              <li>Contact</li>
+              <li>FAQ</li>
+              <li>Delivery</li>
+              <li>Assembly & manuals</li>
+              <li>Payment options</li>
+              <li>Privacy policy</li>
+              <li>Terms & conditions</li>
+            </ul>
+          </div>
+        </div>
+
+        <div>
+          <h2 class="text-[20px]">Join the ride.</h2>
+          <p class="py-3">Sign up for our newsletter.</p>
+
+          <div
+            class="w-[470px] py-2 my-5 border-2 border-gray-70000 rounded-3xl"
+          >
+            <input
+              type="email"
+              class="w-[320px] px-4 bg-black border-none focus:outline-none"
+              placeholder="Enter your email address here"
+            />
+            <button class="py-3 px-8 rounded-3xl bg-white text-black">
+              Subscribe
+            </button>
+          </div>
+
+          <div class="flex gap-4 justify-center">
+            <input type="checkbox" />
+            <p>
+              By signing up, I agree to the
+              <span class="underline">privacy policy</span> of Veloretti.
+            </p>
+          </div>
+
+          <div class="flex gap-5 py-10">
+            <div>
+              <img src="./img/muhsin/SVG (1).png" alt="" />
+            </div>
+            <div>
+              <img src="./img/muhsin/SVG1.png" alt="" />
+            </div>
+            <div>
+              <img src="./img/muhsin/SVG2.png" alt="" />
+            </div>
+            <div>
+              <img src="./img/muhsin/SVG3.png" alt="" />
+            </div>
+            <div>
+              <img src="./img/muhsin/SVG4.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="absolute top-5 right-10">
+        <img src="./img/muhsin/Footer_top-Scroll-Button.png" alt="">
+      </div>
     </footer>
-</body>
+  </body>
 </html>
