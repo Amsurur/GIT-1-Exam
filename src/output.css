@@ -697,6 +697,10 @@ video {
   gap: 50px;
 }
 
+.gap-\[1\] {
+  gap: 1;
+}
+
 .rounded-\[100px\] {
   border-radius: 100px;
 }
