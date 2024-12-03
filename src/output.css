@@ -869,6 +869,10 @@ video {
   width: %;
 }
 
+.w-\[406px\] {
+  width: 406px;
+}
+
 .max-w-screen-2xl {
   max-width: 1536px;
 }
@@ -1409,6 +1413,10 @@ video {
   font-size: 70px;
 }
 
+.text-\[26px\] {
+  font-size: 26px;
+}
+
 .font-bold {
   font-weight: 700;
 }
@@ -1474,6 +1482,25 @@ video {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity, 1));
+}
+
+.text-\[\] {
+  color: ;
+}
+
+.text-red-500 {
+  --tw-text-opacity: 1;
+  color: rgb(239 68 68 / var(--tw-text-opacity, 1));
+}
+
+.text-red-900 {
+  --tw-text-opacity: 1;
+  color: rgb(127 29 29 / var(--tw-text-opacity, 1));
+}
+
+.text-red-600 {
+  --tw-text-opacity: 1;
+  color: rgb(220 38 38 / var(--tw-text-opacity, 1));
 }
 
 .underline {
