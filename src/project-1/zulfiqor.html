@@ -1,14 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="../output.css">
 	<title>Лечение по ОМС</title>
 </head>
-<body class="max-w-[1600px] m-auto p-2">
-	<navbar class="flex flex-col p-5 gap-[25px] px-[80px]">
-		<div class="flex justify-between">
+
+<body class="max-w-[1600px] m-auto">
+	<navbar class="flex flex-col p-5 gap-[25px] lg:px-[80px] ">
+		<div class="hidden lg:flex justify-between">
 			<p class="text-[gray]">Сеть клиник Томской области</p>
 			<div class="flex gap-[10px] items-center text-[gray]">
 				<img src="imgz/view 1.png" alt="">
@@ -16,12 +18,13 @@
 			</div>
 			<div class="flex items-center gap-[20px]">
 				<p class="text-[22px]">+ 7 (978) 00-00-000</p>
-				<button class="cursor-pointer text-white text-[14px] px-5 p-2 bg-[#2CA35E] rounded-full">Записаться на прием</button>
+				<button class="cursor-pointer text-white text-[14px] px-5 p-2 bg-[#2CA35E] rounded-full">Записаться на
+					прием</button>
 			</div>
 		</div>
 		<div class="flex justify-between items-center">
 			<img src="imgz/image 1.png" alt="">
-			<ul class="flex justify-between gap-[50px] text-[18px] text-[gray]">
+			<ul class="hidden lg:flex justify-between gap-[50px] text-[18px] text-[gray]">
 				<li>Врачи</li>
 				<li>Услуги</li>
 				<li>Диагностика</li>
@@ -32,6 +35,7 @@
 				<li>Отзывы</li>
 				<li>Контакты</li>
 			</ul>
+			<img class="lg:hidden block" src="imgz/burger.png" alt="">
 		</div>
 		<div class="flex gap-[10px]">
 			<p class="text-[gray]">Главная</p>
@@ -39,112 +43,134 @@
 			<p>Лечение по ОМС</p>
 		</div>
 	</navbar>
-	<header class="bg-[#F1F5F8] flex flex-col lg:flex-row px-[80px] justify-between items-center">
+	<header class="bg-[#F1F5F8] flex flex-col lg:flex-row lg:px-[80px] justify-between items-center p-2">
 		<div class="flex flex-col gap-[20px] lg:w-[38%] py-10 items-start">
 			<h1 class="lg:text-[40px] text-[25px] font-bold">Лечение по ОМС</h1>
-			<p>Лечение в частной клинике не всегда стоит больших денег. В наших клиниках жители разных регионов России могут получить услуги по полису обязательного медицинского страхования (ОМС).</p>
-			<button class="cursor-pointer text-white text-[14px] px-8 p-2 bg-[#2CA35E] rounded-full">Как получить лечение</button>
+			<p>Лечение в частной клинике не всегда стоит больших денег. В наших клиниках жители разных регионов России
+				могут получить услуги по полису обязательного медицинского страхования (ОМС).</p>
+			<button class="cursor-pointer text-white text-[14px] px-8 p-2 bg-[#2CA35E] rounded-full">Как получить
+				лечение</button>
 		</div>
 		<img src="imgz/Frame.png" alt="">
 	</header>
-	<main class="lg:my-[130px] my-[50px] flex flex-col lg:gap-[130px] gap-[50px]">
-		<section class="px-[80px]">
+	<main class="lg:my-[130px] my-[50px] flex flex-col lg:gap-[130px] gap-[50px] p-2">
+		<section class="lg:px-[80px]">
 			<h2 class="text-[40px] font-bold">Как получить лечение?</h2>
-			<div class="flex justify-between">
+			<div class="flex flex-col lg:flex-row justify-between">
 				<div class="flex flex-col relative lg:w-[28%]">
 					<p class="lg:text-[82px] text-[40px] text-[#34AF66] absolute font-bold z-[-1]">1</p>
-					<div class="flex items-start flex-col gap-[20px] shadow-[0px_0px_5px_rgba(0,0,0,0.5)] p-2 mt-[70px] rounded-xl bg-white py-9">
+					<div
+						class="flex items-start flex-col gap-[20px] shadow-[0px_0px_5px_rgba(0,0,0,0.5)] p-2 lg:mt-[70px] mt-[40px]  rounded-xl bg-white py-9">
 						<img src="imgz/Frame 153.png" alt="">
 						<p>Узнайте, входит ли интересующее вас лечение в программу для вашего региона</p>
 					</div>
 				</div>
 				<div class="flex flex-col relative lg:w-[28%]">
 					<p class="lg:text-[82px] text-[40px] text-[#34AF66] absolute font-bold z-[-1]">2</p>
-					<div class="flex items-start flex-col gap-[20px] shadow-[0px_0px_5px_rgba(0,0,0,0.5)] p-2 mt-[70px] rounded-xl bg-white py-9">
+					<div
+						class="flex items-start flex-col gap-[20px] shadow-[0px_0px_5px_rgba(0,0,0,0.5)] p-2 lg:mt-[70px] mt-[40px]  rounded-xl bg-white py-9">
 						<img src="imgz/Frame 129.png" alt="">
 						<p>Узнайте, входит ли интересующее вас лечение в программу для вашего региона</p>
 					</div>
 				</div>
 				<div class="flex flex-col relative lg:w-[28%]">
 					<p class="lg:text-[82px] text-[40px] text-[#34AF66] absolute font-bold z-[-1]">3</p>
-					<div class="flex items-start flex-col gap-[20px] shadow-[0px_0px_5px_rgba(0,0,0,0.5)] p-2 mt-[70px] rounded-xl bg-white py-9">
+					<div
+						class="flex items-start flex-col gap-[20px] shadow-[0px_0px_5px_rgba(0,0,0,0.5)] p-2 lg:mt-[70px] mt-[40px]  rounded-xl bg-white py-9">
 						<img src="imgz/Frame 153 (1).png" alt="">
 						<p>Узнайте, входит ли интересующее вас лечение в программу для вашего региона</p>
 					</div>
 				</div>
 			</div>
 		</section>
-		<section class="flex flex-col lg:gap-[40px] gap-[20px] px-[80px]">
+		<section class="flex flex-col lg:gap-[40px] gap-[20px] lg:px-[80px]">
 			<div class="flex flex-col lg:flex-row justify-between gap-[30px]">
-				<div class="lg:w-[33%] flex flex-col gap-[20px] shadow-[0px_0px_5px_rgba(0,0,0,0.2)] p-4 rounded-lg hover:bg-[#F1F5F8]">
+				<div
+					class="lg:w-[33%] flex flex-col gap-[20px] shadow-[0px_0px_5px_rgba(0,0,0,0.2)] p-4 rounded-lg hover:bg-[#F1F5F8]">
 					<p class="tex-[20px] font-semibold">Оториноларингология</p>
 					<p class="text-[#0D233B]">Порядок и условия предоставления медицинской помощи по полису ОМС</p>
 					<a href="#" class="underline text-[#58BB81]">Подробнее</a>
 				</div>
-				<div class="lg:w-[33%] flex flex-col gap-[20px] shadow-[0px_0px_5px_rgba(0,0,0,0.2)] p-4 rounded-lg hover:bg-[#F1F5F8]">
+				<div
+					class="lg:w-[33%] flex flex-col gap-[20px] shadow-[0px_0px_5px_rgba(0,0,0,0.2)] p-4 rounded-lg hover:bg-[#F1F5F8]">
 					<p class="tex-[20px] font-semibold">Оториноларингология</p>
 					<p class="text-[#0D233B]">Порядок и условия предоставления медицинской помощи по полису ОМС</p>
 					<a href="#" class="underline text-[#58BB81]">Подробнее</a>
 				</div>
-				<div class="lg:w-[33%] flex flex-col gap-[20px] shadow-[0px_0px_5px_rgba(0,0,0,0.2)] p-4 rounded-lg hover:bg-[#F1F5F8]">
+				<div
+					class="lg:w-[33%] flex flex-col gap-[20px] shadow-[0px_0px_5px_rgba(0,0,0,0.2)] p-4 rounded-lg hover:bg-[#F1F5F8]">
 					<p class="tex-[20px] font-semibold">Оториноларингология</p>
 					<p class="text-[#0D233B]">Порядок и условия предоставления медицинской помощи по полису ОМС</p>
 					<a href="#" class="underline text-[#58BB81]">Подробнее</a>
 				</div>
 			</div>
 			<div class="flex flex-col lg:flex-row justify-between gap-[30px]">
-				<div class="lg:w-[50%] flex flex-col gap-[20px] shadow-[0px_0px_5px_rgba(0,0,0,0.2)] p-4 rounded-lg hover:bg-[#F1F5F8]">
+				<div
+					class="lg:w-[50%] flex flex-col gap-[20px] shadow-[0px_0px_5px_rgba(0,0,0,0.2)] p-4 rounded-lg hover:bg-[#F1F5F8]">
 					<p class="tex-[20px] font-semibold">Неврология</p>
-					<p class="text-[#0D233B]">Эндопротезирование тазобедренных и коленных суставов, реконструктивные операции на кисти и стопе.</p>
+					<p class="text-[#0D233B]">Эндопротезирование тазобедренных и коленных суставов, реконструктивные
+						операции на кисти и стопе.</p>
 					<a href="#" class="underline text-[#58BB81]">Подробнее</a>
 				</div>
-				<div class="lg:w-[50%] flex flex-col gap-[20px] shadow-[0px_0px_5px_rgba(0,0,0,0.2)] p-4 rounded-lg hover:bg-[#F1F5F8]">
+				<div
+					class="lg:w-[50%] flex flex-col gap-[20px] shadow-[0px_0px_5px_rgba(0,0,0,0.2)] p-4 rounded-lg hover:bg-[#F1F5F8]">
 					<p class="tex-[20px] font-semibold">Терапия</p>
-					<p class="text-[#0D233B]">Петлевая пластика уретры с использованием петлевого, синтетического, сетчатого протеза при недержании мочи</p>
+					<p class="text-[#0D233B]">Петлевая пластика уретры с использованием петлевого, синтетического,
+						сетчатого протеза при недержании мочи</p>
 					<a href="#" class="underline text-[#58BB81]">Подробнее</a>
 				</div>
 			</div>
 			<div class="flex flex-col lg:flex-row justify-between gap-[30px]">
-				<div class="lg:w-[33%] flex flex-col gap-[20px] shadow-[0px_0px_5px_rgba(0,0,0,0.2)] p-4 rounded-lg hover:bg-[#F1F5F8]">
+				<div
+					class="lg:w-[33%] flex flex-col gap-[20px] shadow-[0px_0px_5px_rgba(0,0,0,0.2)] p-4 rounded-lg hover:bg-[#F1F5F8]">
 					<p class="tex-[20px] font-semibold">Ревматология</p>
 					<p class="text-[#0D233B]">Для взрослых и детей: удаление катаракты, лечение птоза и косоглазия</p>
 					<a href="#" class="underline text-[#58BB81]">Подробнее</a>
 				</div>
-				<div class="lg:w-[33%] flex flex-col gap-[20px] shadow-[0px_0px_5px_rgba(0,0,0,0.2)] p-4 rounded-lg hover:bg-[#F1F5F8]">
+				<div
+					class="lg:w-[33%] flex flex-col gap-[20px] shadow-[0px_0px_5px_rgba(0,0,0,0.2)] p-4 rounded-lg hover:bg-[#F1F5F8]">
 					<p class="tex-[20px] font-semibold">Гастроэнтерология</p>
 					<p class="text-[#0D233B]">Реконструктивные операции на позвоночнике</p>
 					<a href="#" class="underline text-[#58BB81]">Подробнее</a>
 				</div>
-				<div class="lg:w-[33%] flex flex-col gap-[20px] shadow-[0px_0px_5px_rgba(0,0,0,0.2)] p-4 rounded-lg hover:bg-[#F1F5F8]">
+				<div
+					class="lg:w-[33%] flex flex-col gap-[20px] shadow-[0px_0px_5px_rgba(0,0,0,0.2)] p-4 rounded-lg hover:bg-[#F1F5F8]">
 					<p class="tex-[20px] font-semibold">УЗИ- диагностика</p>
 					<p class="text-[#0D233B]">Для жителей Санкт-Петербурга и регионов России</p>
 					<a href="#" class="underline text-[#58BB81]">Подробнее</a>
 				</div>
 			</div>
 			<div class="flex flex-col lg:flex-row justify-between gap-[30px]">
-				<div class="lg:w-[50%] flex flex-col gap-[20px] shadow-[0px_0px_5px_rgba(0,0,0,0.2)] p-4 rounded-lg hover:bg-[#F1F5F8]">
+				<div
+					class="lg:w-[50%] flex flex-col gap-[20px] shadow-[0px_0px_5px_rgba(0,0,0,0.2)] p-4 rounded-lg hover:bg-[#F1F5F8]">
 					<p class="tex-[20px] font-semibold">Кардиология и функциональная диагностика</p>
-					<p class="text-[#0D233B]">Генно-инженерная терапия ревматических заболеваний по ОМС в «Скандинавии»</p>
+					<p class="text-[#0D233B]">Генно-инженерная терапия ревматических заболеваний по ОМС в «Скандинавии»
+					</p>
 					<a href="#" class="underline text-[#58BB81]">Подробнее</a>
 				</div>
-				<div class="lg:w-[50%] flex flex-col gap-[20px] shadow-[0px_0px_5px_rgba(0,0,0,0.2)] p-4 rounded-lg hover:bg-[#F1F5F8]">
+				<div
+					class="lg:w-[50%] flex flex-col gap-[20px] shadow-[0px_0px_5px_rgba(0,0,0,0.2)] p-4 rounded-lg hover:bg-[#F1F5F8]">
 					<p class="tex-[20px] font-semibold">Эндокринология</p>
-					<p class="text-[#0D233B]">Резекция печени или одного сегмента печени и эндоскопические операции на органах ЖКТ</p>
+					<p class="text-[#0D233B]">Резекция печени или одного сегмента печени и эндоскопические операции на
+						органах ЖКТ</p>
 					<a href="#" class="underline text-[#58BB81]">Подробнее</a>
 				</div>
 			</div>
 			<div class="flex flex-col lg:flex-row justify-between gap-[30px]">
-				<div class="lg:w-[33%] flex flex-col gap-[20px] shadow-[0px_0px_5px_rgba(0,0,0,0.2)] p-4 rounded-lg hover:bg-[#F1F5F8]">
+				<div
+					class="lg:w-[33%] flex flex-col gap-[20px] shadow-[0px_0px_5px_rgba(0,0,0,0.2)] p-4 rounded-lg hover:bg-[#F1F5F8]">
 					<p class="tex-[20px] font-semibold">Ревматология</p>
 					<p class="text-[#0D233B]">Для взрослых и детей: удаление катаракты, лечение птоза и косоглазия</p>
 					<a href="#" class="underline text-[#58BB81]">Подробнее</a>
 				</div>
-				<div class="lg:w-[33%] flex flex-col gap-[20px] shadow-[0px_0px_5px_rgba(0,0,0,0.2)] p-4 rounded-lg hover:bg-[#F1F5F8]">
+				<div
+					class="lg:w-[33%] flex flex-col gap-[20px] shadow-[0px_0px_5px_rgba(0,0,0,0.2)] p-4 rounded-lg hover:bg-[#F1F5F8]">
 					<p class="tex-[20px] font-semibold">Гастроэнтерология</p>
 					<p class="text-[#0D233B]">Реконструктивные операции на позвоночнике</p>
 					<a href="#" class="underline text-[#58BB81]">Подробнее</a>
 				</div>
-				<div class="lg:w-[33%] flex flex-col gap-[20px] shadow-[0px_0px_5px_rgba(0,0,0,0.2)] p-4 rounded-lg hover:bg-[#F1F5F8]">
+				<div
+					class="lg:w-[33%] flex flex-col gap-[20px] shadow-[0px_0px_5px_rgba(0,0,0,0.2)] p-4 rounded-lg hover:bg-[#F1F5F8]">
 					<p class="tex-[20px] font-semibold">УЗИ- диагностика</p>
 					<p class="text-[#0D233B]">Для жителей Санкт-Петербурга и регионов России</p>
 					<a href="#" class="underline text-[#58BB81]">Подробнее</a>
@@ -154,14 +180,15 @@
 		<section class="flex items-center justify-center ">
 			<img src="imgz/Видео.png" alt="">
 		</section>
-		<section class="flex flex-col gap-[20px] px-[80px]">
+		<section class="flex flex-col gap-[20px] lg:px-[80px]">
 			<h2 class="lg:text-[40px] font-bold text-[20px]">Заявка на лечение по ОМС</h2>
 			<p class="text-[gray]">Заполните поля ниже и прикрепите документ, чтобы отправить заявку</p>
 			<div class="flex flex-col gap-[20px] my-[20px]">
 				<div class="grid md:grid-cols-2 md:grid-rows-2 lg:grid-cols-4 lg:grid-rows-2 gap-[20px]">
 					<div class="flex flex-col gap-[10px]">
 						<label class="text-[18px] font-bold">Ваше ФИО</label>
-						<input class="rounded-full p-4  bg-[#F1F5F8] outline-none" type="text" placeholder="Ivanov Ivan Ivanovich">
+						<input class="rounded-full p-4  bg-[#F1F5F8] outline-none" type="text"
+							placeholder="Ivanov Ivan Ivanovich">
 					</div>
 					<div class="flex flex-col gap-[10px]">
 						<label class="text-[18px] font-bold">Дата рождения</label>
@@ -169,11 +196,13 @@
 					</div>
 					<div class="flex flex-col gap-[10px]">
 						<label class="text-[18px] font-bold">E-mail</label>
-						<input class="rounded-full p-4 bg-[#F1F5F8] outline-none" type="email" placeholder="Poshta@gmail.com">
+						<input class="rounded-full p-4 bg-[#F1F5F8] outline-none" type="email"
+							placeholder="Poshta@gmail.com">
 					</div>
 					<div class="flex flex-col gap-[10px]">
 						<label class="text-[18px] font-bold">Номер телефона</label>
-						<input class="rounded-full p-4 bg-[#F1F5F8] outline-none" type="tel" placeholder="+7 (___) ___-__-__">
+						<input class="rounded-full p-4 bg-[#F1F5F8] outline-none" type="tel"
+							placeholder="+7 (___) ___-__-__">
 					</div>
 					<div class="flex flex-col gap-[10px]">
 						<label class="text-[18px] font-bold">Профиль</label>
@@ -181,21 +210,25 @@
 					</div>
 					<div class="flex flex-col gap-[10px]">
 						<label class="text-[18px] font-bold">Медицинская услуга</label>
-						<input class="rounded-full p-4 bg-[#F1F5F8] outline-none" type="text" placeholder="Эндокринология">
+						<input class="rounded-full p-4 bg-[#F1F5F8] outline-none" type="text"
+							placeholder="Эндокринология">
 					</div>
 					<div class="flex flex-col gap-[10px]">
 						<label class="text-[18px] font-bold">Регион</label>
-						<input class="rounded-full p-4 bg-[#F1F5F8] outline-none" type="text" placeholder="Эндокринология">
+						<input class="rounded-full p-4 bg-[#F1F5F8] outline-none" type="text"
+							placeholder="Эндокринология">
 					</div>
 					<div class="flex flex-col gap-[10px]">
 						<label class="text-[18px] font-bold">ФИО и телефон вашего врача</label>
-						<input class="rounded-full p-4 bg-[#F1F5F8] outline-none" type="text" placeholder="Иванова Анна +7 (___) ___-__-__">
+						<input class="rounded-full p-4 bg-[#F1F5F8] outline-none" type="text"
+							placeholder="Иванова Анна +7 (___) ___-__-__">
 					</div>
 				</div>
 				<div class="flex flex-col lg:flex-row justify-between gap-[20px]">
 					<div class="flex flex-col gap-[10px] lg:w-[50%]">
 						<label class="text-[18px] font-bold">Причина обращения</label>
-						<input class="rounded-full p-4 bg-[#F1F5F8] outline-none" type="text" placeholder="Причина обращения">
+						<input class="rounded-full p-4 bg-[#F1F5F8] outline-none" type="text"
+							placeholder="Причина обращения">
 					</div>
 					<div class="flex flex-col gap-[10px] lg:w-[50%]">
 						<label class="text-[18px] font-bold">Откуда вы узнали о нас?</label>
@@ -203,67 +236,83 @@
 					</div>
 				</div>
 				<div class="flex flex-col gap-[20px] text-[grey] lg:w-[50%]">
-					<p>Не забудьте прикрепить выписку из медицинской документации или результаты исследований в соответствии с перечнем выше</p>
+					<p>Не забудьте прикрепить выписку из медицинской документации или результаты исследований в
+						соответствии с перечнем выше</p>
 					<div class="flex items-center gap-[10px]">
 						<img src="imgz/paper-clip 1.png" alt="">
 						<p class="text-[#4CB778] text-[18px]">Прикрепить документы</p>
 					</div>
 				</div>
 				<div class="lg:w-[50%] flex flex-col gap-[20px] items-start">
-					<button class="cursor-pointer text-white text-[14px] px-8 p-2 bg-[#2CA35E] rounded-full">Оставить заявку</button>
-					<p class="text-[gray]">Нажимая на кнопку Оставить заявку вы соглашаетесь с политикой конфиденциальности и даете согласие на обработку персональных данных</p>
+					<button class="cursor-pointer text-white text-[14px] px-8 p-2 bg-[#2CA35E] rounded-full">Оставить
+						заявку</button>
+					<p class="text-[gray]">Нажимая на кнопку Оставить заявку вы соглашаетесь с политикой
+						конфиденциальности и даете согласие на обработку персональных данных</p>
 				</div>
 			</div>
 		</section>
 	</main>
-	<footer class="px-[80px] py-[50px] bg-[#279A59] flex flex-col lg:flex-row gap-[30px] text-white justify-between">
-		<div class="flex flex-col gap-[10px]">
+	<footer class="lg:px-[80px] py-[50px] bg-[#279A59] flex flex-col lg:flex-row gap-[30px] text-white justify-between p-2">
+		<div class="flex flex-col gap-[10px] items-start">
 			<img src="imgz/image 1.png" alt="">
-			<p>Адрес</p>
-			<p>Москва, ул. Пушкина, д.43</p>
-			<p>Телефон</p>
-			<p>+7 (9__) ___-__-__</p>
-			<p>Почта</p>
-			<p>Poshta@gmail.com</p>
+			<div class="flex lg:flex-col gap-[10px] lg:text-[16px] text-[12px] justify-between">
+				<div class="flex flex-col gap-[10px] mt-[5px]">
+					<p>Адрес</p>
+					<p>Москва, ул. Пушкина, д.43</p>
+				</div>
+				<div class="flex flex-col gap-[10px] mt-[5px]">
+					<p>Телефон</p>
+					<p>+7 (9__) ___-__-__</p>
+				</div>
+				<div class="flex flex-col gap-[10px] mt-[5px]">
+					<p>Почта</p>
+					<p>Poshta@gmail.com</p>
+				</div>
+			</div>
 		</div>
-		<div class="flex flex-col lg:flex-row lg:gap-[100px]">
-			<div class="flex flex-col gap-[10px]">
-				<h3 class="text-[18px] font-semibold mb-[25px]">О клинике</h3>
-				<p>Название пункта меню</p>
-				<p>Название пункта меню</p>
-				<p>Название пункта меню</p>
-				<p>Название пункта меню</p>
-				<p>Название пункта меню</p>
-				<p>Название пункта меню</p>
+		<div class="flex lg:gap-[100px] justify-between">
+			<div class="flex flex-col lg:flex-row lg:gap-[100px] ">
+				<div class="flex flex-col gap-[10px] text-[14px] mb-[20px]">
+					<h3 class="lg:text-[18px] font-semibold lg:mb-[25px] mb-[15px]">О клинике</h3>
+					<p>Название пункта меню</p>
+					<p>Название пункта меню</p>
+					<p>Название пункта меню</p>
+					<p>Название пункта меню</p>
+					<p>Название пункта меню</p>
+					<p>Название пункта меню</p>
+				</div>
+				<div class="flex flex-col gap-[10px] text-[14px]">
+					<h3 class="lg:text-[18px] font-semibold lg:mb-[25px] mb-[15px]">Врач</h3>
+					<p>Название пункта меню</p>
+					<p>Название пункта меню</p>
+					<p>Название пункта меню</p>
+					<p>Название пункта меню</p>
+					<p>Название пункта меню</p>
+					<p>Название пункта меню</p>
+				</div>
 			</div>
-			<div class="flex flex-col gap-[10px]">
-				<h3 class="text-[18px] font-semibold mb-[25px]">О клинике</h3>
-				<p>Название пункта меню</p>
-				<p>Название пункта меню</p>
-				<p>Название пункта меню</p>
-				<p>Название пункта меню</p>
-				<p>Название пункта меню</p>
-				<p>Название пункта меню</p>
-			</div>
-			<div class="flex flex-col gap-[10px]">
-				<h3 class="text-[18px] font-semibold mb-[25px]">О клинике</h3>
-				<p>Название пункта меню</p>
-				<p>Название пункта меню</p>
-				<p>Название пункта меню</p>
-				<p>Название пункта меню</p>
-				<p>Название пункта меню</p>
-				<p>Название пункта меню</p>
-			</div>
-			<div class="flex flex-col gap-[10px]">
-				<h3 class="text-[18px] font-semibold mb-[25px]">О клинике</h3>
-				<p>Название пункта меню</p>
-				<p>Название пункта меню</p>
-				<p>Название пункта меню</p>
-				<p>Название пункта меню</p>
-				<p>Название пункта меню</p>
-				<p>Название пункта меню</p>
+			<div class="flex flex-col lg:flex-row lg:gap-[100px]">
+				<div class="flex flex-col gap-[10px] text-[14px] mb-[20px]">
+					<h3 class="lg:text-[18px] font-semibold lg:mb-[25px] mb-[15px]">Пациентам</h3>
+					<p>Название пункта меню</p>
+					<p>Название пункта меню</p>
+					<p>Название пункта меню</p>
+					<p>Название пункта меню</p>
+					<p>Название пункта меню</p>
+					<p>Название пункта меню</p>
+				</div>
+				<div class="flex flex-col gap-[10px] text-[14px]">
+					<h3 class="lg:text-[18px] font-semibold lg:mb-[25px] mb-[15px]">Услуги</h3>
+					<p>Название пункта меню</p>
+					<p>Название пункта меню</p>
+					<p>Название пункта меню</p>
+					<p>Название пункта меню</p>
+					<p>Название пункта меню</p>
+					<p>Название пункта меню</p>
+				</div>
 			</div>
 		</div>
 	</footer>
 </body>
+
 </html>
