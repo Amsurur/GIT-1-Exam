@@ -595,6 +595,10 @@ video {
   margin-left: 100px;
 }
 
+.ml-\[120px\] {
+  margin-left: 120px;
+}
+
 .ml-\[20px\] {
   margin-left: 20px;
 }
@@ -627,6 +631,10 @@ video {
   margin-left: 60px;
 }
 
+.mt-\[120px\] {
+  margin-top: 120px;
+}
+
 .mt-\[20px\] {
   margin-top: 20px;
 }
@@ -655,8 +663,24 @@ video {
   margin-top: 70px;
 }
 
-.mt-\[120px\] {
-  margin-top: 120px;
+.ml-\[0px\] {
+  margin-left: 0px;
+}
+
+.ml-\[\] {
+  margin-left: ;
+}
+
+.ml-\[70px\] {
+  margin-left: 70px;
+}
+
+.ml-\[80px\] {
+  margin-left: 80px;
+}
+
+.mt-\[10px\] {
+  margin-top: 10px;
 }
 
 .block {
@@ -699,6 +723,10 @@ video {
   height: 32px;
 }
 
+.h-\[354px\] {
+  height: 354px;
+}
+
 .h-\[460px\] {
   height: 460px;
 }
@@ -711,20 +739,24 @@ video {
   height: 60px;
 }
 
-.h-\[\] {
-  height: ;
+.h-\[750px\] {
+  height: 750px;
 }
 
-.h-\[900px\] {
-  height: 900px;
+.h-\[0px\] {
+  height: 0px;
 }
 
-.h-\[354px\] {
-  height: 354px;
+.h-\[2000px\] {
+  height: 2000px;
 }
 
 .w-\[100\%\] {
   width: 100%;
+}
+
+.w-\[1170px\] {
+  width: 1170px;
 }
 
 .w-\[1270px\] {
@@ -773,10 +805,6 @@ video {
 
 .w-\[900px\] {
   width: 900px;
-}
-
-.w-\[1170px\] {
-  width: 1170px;
 }
 
 .grid-cols-2 {
@@ -853,6 +881,10 @@ video {
 
 .gap-\[60px\] {
   gap: 60px;
+}
+
+.gap-\[830px\] {
+  gap: 830px;
 }
 
 .rounded-2xl {
@@ -970,6 +1002,11 @@ video {
   background-color: rgb(255 247 225 / var(--tw-bg-opacity, 1));
 }
 
+.bg-gray-100 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(243 244 246 / var(--tw-bg-opacity, 1));
+}
+
 .bg-transparent {
   background-color: transparent;
 }
@@ -979,19 +1016,8 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
 }
 
-.bg-gray-400 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(156 163 175 / var(--tw-bg-opacity, 1));
-}
-
-.bg-gray-50 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(249 250 251 / var(--tw-bg-opacity, 1));
-}
-
-.bg-gray-100 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(243 244 246 / var(--tw-bg-opacity, 1));
+.bg-\[\] {
+  background-color: ;
 }
 
 .p-\[20px\] {
