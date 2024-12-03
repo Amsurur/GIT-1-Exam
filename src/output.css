@@ -1249,6 +1249,11 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
 }
 
+.bg-\[\#A4B2B1\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(164 178 177 / var(--tw-bg-opacity, 1));
+}
+
 .bg-cover {
   background-size: cover;
 }
